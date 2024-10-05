@@ -734,3 +734,21 @@ footer:hover p {
   transform: scale(1.2); 
   color: #00d9ff; 
 }
+
+@media (max-width: 768px) {
+  .changing-places {
+    font-size: 1.5rem; 
+  }
+}
+
+@media (max-width: 480px) {
+  .changing-places {
+    font-size: 1.2rem; 
+    padding: 10px;
+  }
+
+  .changing-places .place {
+    display: block;
+    margin: 5px 0;
+  }
+}
